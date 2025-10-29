@@ -1,0 +1,103 @@
+ 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #ddffdfb2, #96ac92);
+      color: #01579b;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px  ;
+      background: linear-gradient(to right, #020f01, #393941cb);
+      color: white;
+      border-radius: 16px;
+      margin-bottom: 60px;
+      box-shadow: 0 6px 20px rgb(120, 145, 106);
+    }
+
+    header h1 {
+      font-size:50px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      
+    }
+
+    header p {
+      font-size: 22px;
+      margin-top: 10px;
+      opacity: 0.6;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: white;
+      width: 480px;
+      padding: 25px;
+      border-radius: 28px;
+      box-shadow: 0 1px 20px rgb(0, 0, 0);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      border-top: 5px solid #083b03;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-number {
+      font-size: 20px;
+      font-weight: 700;
+      color: #063302;
+      margin-bottom: 10px;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #01579b;
+    }
+
+    .card-date {
+      font-size: 18px;
+      color: #546e7a;
+      margin-top: auto;
+      font-style: italic;
+    }
+     header img{
+        text-align: left;
+     }
+     .imagen{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+     }
+     .imagem-fixa {
+    position: fixed;
+    bottom: 30px; 
+    right: 40px; 
+    z-index: 100; 
+   }
+
+    
